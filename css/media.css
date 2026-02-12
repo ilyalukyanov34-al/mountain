@@ -31,21 +31,21 @@
 
 @media screen and (max-width:400px) {
     .header__nav-list {
-        gap: 15px;
+        gap: 30px;
         font-size: 14px;
     }
 }
 
 @media screen and (max-width:380px) {
     .header__nav-list {
-        gap: 10px;
+        gap: 25px;
         font-size: 12px;
     }
 }
 
 @media screen and (max-width:360px) {
     .header__nav-list {
-        gap: 5px;
+        gap: 20px;
         font-size: 10px;
     }
 }
@@ -697,6 +697,14 @@
     }
 }
 
+@media screen and (max-width:450px) {
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
 @media screen and (max-width:430px) {
     .footer__nav {
         display: flex;
@@ -728,6 +736,6 @@
     .footer__nav-list_icons {
         justify-content: center;
         gap: 10px;
-    }   
+    }
 
 }
